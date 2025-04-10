@@ -9,6 +9,7 @@
 @import './styles/blog.css';
 @import './styles/cta.css';
 @import './styles/footer.css';
+@import './styles/category.css';
 
 * {
   margin: 0;
