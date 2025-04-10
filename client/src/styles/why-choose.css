@@ -1,0 +1,46 @@
+.why-choose {
+  padding: 3rem 0;
+}
+
+.why-choose-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .why-choose-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.person-image {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  height: 400px;
+}
+
+.person-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-image {
+  border-radius: 0.75rem;
+  overflow: hidden;
+  height: 200px;
+}
+
+.why-choose-content {
+  padding: 1rem 0;
+}
+
+.why-choose-title {
+  margin-bottom: 1rem;
+}
+
+.why-choose-text {
+  color: var(--gray-600);
+  margin-bottom: 1.5rem;
+}
