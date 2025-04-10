@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
-import { Product } from '../data/products';
 
-interface ProductCardProps {
-  product: Product;
-}
-
-const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+const ProductCard = ({ product }) => {
   const [isWishlist, setIsWishlist] = useState(false);
 
   const toggleWishlist = () => {
@@ -31,7 +26,8 @@ const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         </div>
       </div>
       {product.isNew && <div className="badge">New</div>}
-      {product.isBestSeller && <div className="badge">Best Seller</div>}
+      {product.isBestSeller && <div className="badge best-seller">Best Seller</div>}
+      <div className="add-to-cart">Add to Cart</div>
     </div>
   );
 };

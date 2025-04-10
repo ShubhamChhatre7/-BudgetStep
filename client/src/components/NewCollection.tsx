@@ -1,7 +1,7 @@
 import React from 'react';
 import { newCollectionImage } from '../data/products';
 
-const NewCollection: React.FC = () => {
+const NewCollection = () => {
   return (
     <section className="section">
       <div className="container">
