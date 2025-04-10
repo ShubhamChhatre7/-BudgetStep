@@ -18,7 +18,7 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-inner">
           <Link href="/" className="logo">
-            Sh<span>oe</span>es
+            Sh<span className="logo-highlight">o</span>es<span className="logo-text">Collect!</span>
           </Link>
           
           <nav className="nav-desktop">
@@ -60,11 +60,12 @@ const Header: React.FC = () => {
             <button className="action-btn" aria-label="Search">
               <i className="fas fa-search"></i>
             </button>
-            <button className="action-btn" aria-label="Wishlist">
-              <i className="fas fa-heart"></i>
+            <button className="action-btn" aria-label="User account">
+              <i className="fas fa-user"></i>
             </button>
-            <button className="action-btn" aria-label="Shopping bag">
-              <i className="fas fa-shopping-bag"></i>
+            <button className="action-btn" aria-label="Shopping cart">
+              <i className="fas fa-shopping-cart"></i>
+              <span className="cart-badge">0</span>
             </button>
             <button 
               className="action-btn hamburger" 
