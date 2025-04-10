@@ -1,7 +1,7 @@
 import React from 'react';
 import { heroImage } from '../data/products';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section className="hero">
       <div className="container">

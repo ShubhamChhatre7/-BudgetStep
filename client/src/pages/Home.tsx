@@ -10,7 +10,7 @@ import BlogPosts from '../components/BlogPosts';
 import CallToAction from '../components/CallToAction';
 import Footer from '../components/Footer';
 
-const Home: React.FC = () => {
+const Home = () => {
   useEffect(() => {
     // Add font-awesome CDN
     const fontAwesomeLink = document.createElement('link');
