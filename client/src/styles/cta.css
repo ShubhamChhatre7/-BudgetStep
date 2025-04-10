@@ -3,11 +3,45 @@
   color: var(--white);
   padding: 4rem 0;
   text-align: center;
+  position: relative;
+  background-image: url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+  background-size: cover;
+  background-position: center;
+}
+
+.cta::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(26, 32, 44, 0.85);
+  z-index: 1;
+}
+
+.cta .container {
+  position: relative;
+  z-index: 2;
 }
 
 .cta-title {
   font-size: 2rem;
   margin-bottom: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+@media (min-width: 576px) {
+  .cta-title {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .cta-title {
+    font-size: 2.5rem;
+  }
 }
 
 .cta-buttons {
@@ -25,6 +59,22 @@
   }
 }
 
+.cta .btn {
+  transition: all 0.3s ease;
+  border-width: 2px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+}
+
+.cta .btn-primary {
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.4);
+}
+
+.cta .btn-primary:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 107, 53, 0.5);
+}
+
 .cta .btn-outline {
   border-color: var(--white);
   color: var(--white);
@@ -33,4 +83,6 @@
 .cta .btn-outline:hover {
   background-color: var(--white);
   color: var(--neutral-dark);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.3);
 }
