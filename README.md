@@ -134,9 +134,9 @@ This project is licensed under the [MIT License](LICENSE).
 **Shubham R. Chhatre**  
 🧑‍🎓 B.Tech (Electronics & Telecommunication) – SB Jain Institute of Technology, Nagpur  
 🔗 GitHub: [@ShubhamChhatre7](https://github.com/ShubhamChhatre7)  
-📧 Email: *[Add your email here if you'd like]*  
+📧 Email: Shubhamchhatre20@gmail.com 
 📍 India  
 
 ---
 
-_This project is part of my personal portfolio. Feedback and suggestions are always welcome!_
+_This project is part of my personal porject. Feedback and suggestions are always welcome!_
