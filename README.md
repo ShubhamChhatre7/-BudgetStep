@@ -6,19 +6,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home Page](attached_assets/homepage.png)
-
-### 🛍️ Product Listing
-![Product Page](attached_assets/products.png)
-
-### 🧾 Cart View
-![Cart View](attached_assets/cart.png)
-
----
-
 ## ✨ Features
 
 - 🛍️ E-commerce shoe catalog
@@ -54,3 +41,102 @@
 
 ## 📁 Folder Structure
 
+```
+BudgetStep/
+├── attached_assets/        # Screenshots & static assets
+├── client/                 # React Frontend
+├── server/                 # Express Backend
+├── shared/                 # Shared configs and components
+├── drizzle.config.ts       # Drizzle ORM config
+├── tailwind.config.ts      # Tailwind CSS settings
+├── vite.config.ts          # Vite bundler config
+├── tsconfig.json           # TypeScript settings
+└── package.json            # App dependencies and scripts
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/ShubhamChhatre7/-BudgetStep.git
+cd BudgetStep
+```
+
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run Development Server
+```bash
+npm run dev
+```
+App will start at: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🌐 API Overview (Backend)
+
+| Method | Endpoint             | Description                  |
+|--------|----------------------|------------------------------|
+| GET    | `/api/products`      | Get all shoes                |
+| GET    | `/api/products/:id`  | Get shoe by ID               |
+| POST   | `/api/cart`          | Add item to cart             |
+| GET    | `/api/cart`          | Fetch cart contents          |
+| DELETE | `/api/cart/:id`      | Remove item from cart        |
+
+> Backend is under `server/` folder. APIs built using Express.js.
+
+---
+
+## 🌍 Deployment
+
+The project is deployed on **Render**:
+
+🔗 [https://budgetstep.onrender.com](https://budgetstep.onrender.com)
+
+### Deploy Yourself
+
+You can deploy the app on:
+
+- **Frontend**: Vercel / Netlify
+- **Backend**: Render / Railway / Heroku
+
+---
+
+## 📦 Scripts
+
+```bash
+npm run dev         # Run in development
+npm run build       # Build for production
+npm run preview     # Preview built app
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!  
+Feel free to fork the project and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👨‍💻 Author
+
+**Shubham R. Chhatre**  
+🧑‍🎓 B.Tech (Electronics & Telecommunication) – SB Jain Institute of Technology, Nagpur  
+🔗 GitHub: [@ShubhamChhatre7](https://github.com/ShubhamChhatre7)  
+📧 Email: *[Add your email here if you'd like]*  
+📍 India  
+
+---
+
+_This project is part of my personal portfolio. Feedback and suggestions are always welcome!_
